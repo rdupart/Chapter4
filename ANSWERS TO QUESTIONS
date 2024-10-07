@@ -1,0 +1,4 @@
+1. Why does the parser say "Identifier expected, found = "?
+This occurs because the BNF expects an idenitier on the left side of the "=" symbol, but because there is a ++ which is invalid. 
+2. Why does the error message say "Equal sign expect, found D" when using float delcaration?
+This occurs because in the declaration thr parser its exepcting an integer delcaration.
